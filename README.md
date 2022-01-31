@@ -32,3 +32,4 @@ A virtual Assistant which helps in our daily tasks and communication which is fr
 30) general talk
 31) Translate
 
+Run the Serena.py to start the program
