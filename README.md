@@ -1,5 +1,6 @@
 # Virtual-Assistant-Serena
-A virtual Assistant which helps in our daily tasks and communication which is friendly and useful. It can do the following tasks:-
+A virtual Assistant which helps in our daily tasks and communication which is friendly and useful. It uses ml model which is trained on various sentences so that the model can understand the user's command, it uses NLP techniques like tokenization, lemmatization, stemming and word vectorization to understand the human language. it predicts the correct intent for the commands and maps them to the tasks accordingly. 
+It can perform the following tasks:-
 1) play youtube video
 2) joke
 3) give information about anything
@@ -31,5 +32,3 @@ A virtual Assistant which helps in our daily tasks and communication which is fr
 29) areas and perimeters of basic 2d shapes
 30) general talk
 31) Translate
-
-Run the Serena.py to start the program
