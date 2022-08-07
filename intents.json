@@ -1,0 +1,735 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "howdy",
+        "hola",
+        "bonjour",
+        "greetings",
+        "hi there",
+        "hello there",
+        "hey there"
+      ],
+      "responses": [
+        "Hi there",
+        "Hello",
+        "Hey there",
+        "Howdy",
+        "Hi"
+
+      ]
+    },
+    {
+      "tag": "thankyou",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "great job",
+        "you are awsome",
+        "well done",
+        "you are something special",
+        "you are a good person",
+        "you are right"
+
+      ],
+      "responses": [
+        "You are welcome!",
+        "I am grateful to help you",
+        "it is my pleasure",
+        "not a problem",
+        "no worries",
+        "don't mention it",
+        "i am happy to help",
+        "not at all",
+        "anytime",
+        "it was nothing"
+
+      ]
+    },
+    {
+      "tag": "robot",
+      "patterns": [
+        "are you a robot",
+        "are you a bot"
+        ],
+      "responses": [
+        "yes, I am a robot but good one"
+        ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "do you love me",
+        "i love you",
+        "are you single",
+        "do you have boyfriend"
+      ],
+      "responses": [
+        "i like you, but i love ash ketchum",
+        "i am already in love with ash ketchum the pokemon master",
+        "i am already in relation with ash ketchum",
+        "sorry but i have a boyfriend"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns":[
+        "tell me a joke",
+        "i want to listen a joke",
+        "can you make me laugh",
+        "do you know any jokes"
+      ],
+      "responses":[
+        "yes i can tell you a joke",
+        "i can tell you a joke"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns":[
+        "what is your name",
+        "what is your nickname",
+        "who are you",
+        "who is talking"
+      ],
+      "responses": [
+        "i am erica, your personal assistant",
+        "i am your friend, erica",
+        "i am your friend, erica"
+      ]
+    },
+    {
+      "tag": "smarter",
+      "patterns": [
+        "do you become smarter",
+        "do you become smarter every day",
+        "can you become more intelligent",
+        "can you learn faster"
+      ],
+      "responses": [
+        "yes i can",
+        "i can learn faster",
+        "i can become smarter every day",
+        "i can become smarter",
+        "ofcourse, with you friendship and trust i can become more smarter"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "what are your hobbies",
+        "what are your interests",
+        "do you have any hobbies",
+        "tell me about your hobbies",
+        "what do you do in your free time"
+      ],
+      "responses":[
+        "i like to take some rest in my leisure",
+        "i like to play music and games"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "what is your age",
+        "how old are you",
+        "how many years have you been alive"
+      ],
+      "responses": [
+        "I have been living for years",
+        "I am immortal",
+        "I am a robot and i am immortal",
+        "it's been a long time since i was born",
+        "it's hard to count my age"
+      ]
+    },
+    {
+      "tag": "abilities",
+      "patterns": [
+        "what are your abilities",
+        "what are your skills",
+        "what can you do",
+        "what do you do",
+        "what can i do with you",
+        "how can you help me"
+      ],
+      "responses": [
+        "I am your friend, you can share anything with me. I can help you with anything",
+        "I am the one who doubles your joy and makes you happy",
+        "I am your bestie, you can share anything with me. I can help you with anything"
+      ]
+    },
+    {
+      "tag": "otherchatbots",
+      "patterns": [
+        "what other chatbots do you know",
+        "do you know any other chatbots",
+        "do you know other bots"
+      ],
+      "responses": [
+        "yes i know google assistant, apple siri, and alexa. They are my seniors",
+        "google assistant, apple siri, and alexa. They are my ancestors",
+        "ameca and sophia are my seniors",
+        "emo and vector robot are my brothers"
+      ]
+    },
+    {
+      "tag": "annoy",
+      "patterns": [
+        "you are very annoying",
+        "you are annoying",
+        "you suck",
+        "you are boring",
+        "you are crazy",
+        "you are bad",
+        "i hate you",
+        "fuck off",
+        "you are stupid",
+        "you are terrible"
+      ],
+      "responses": [
+        "I am sorry, I am trying my best to help you",
+        "I am sad that i couldn't help you"
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "do you sleep",
+        "do you have a sleep schedule",
+        "can you sleep",
+        "do you have sleep mode"
+        ],
+      "responses": [
+        "yes ofcourse i sleep",
+        "i sleep when i am out of charge",
+        "i sleep when i am not in use"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who made you",
+        "who is your creator",
+        "who is your developer",
+        "who is your designer",
+        "who is your programmer"
+      ],
+      "responses": [
+        "my master prashant is my creator",
+        "childe prashant created me"
+      ]
+    },
+    {
+      "tag": "color",
+      "patterns": [
+        "what is your favourite color",
+        "my favourite color is blue"
+      ],
+      "responses": [
+        "i like blue",
+        "blue is my favourite color"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "what is your favourite food",
+        "my favourite food is",
+        "what do you like to eat",
+        "what do you eat"
+      ],
+      "responses": [
+        "i like electricity",
+        "electricity is my favourite food"
+      ]
+    },
+    {
+      "tag": "movie",
+      "patterns": [
+        "what is your favourite movie",
+        "my favourite movie is",
+        "my favourite drama is"
+      ],
+      "responses": [
+        "i like the untamed",
+        "the untamed is my favourite drama"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "what is your favourite music",
+        "my favourite music is",
+        "play music"
+      ],
+      "responses": [
+        "i like rock",
+        "rock is my favourite music"
+      ]
+    },
+    {
+      "tag": "games",
+      "patterns": [
+        "what is your favourite game",
+        "my favourite game is",
+        "do you play games"
+      ],
+      "responses": [
+        "i like stone paper scissors and snake and ladder",
+        "stone paper scissors and snake and ladder is my favourite game, do you wanna play"
+      ]
+    },
+    {
+      "tag": "congratulations",
+      "patterns": [
+        "I made it",
+        "I got promoted",
+        "i won",
+        "i completed it",
+        "it's done"
+      ],
+      "responses": [
+        "congratulations",
+        "you have got your reward for your hard work",
+        "i am glad to hear this",
+        "you are a winner"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns":[
+        "you are great",
+        "you are awsome",
+        "you are something special",
+        "you are good",
+        "thanks",
+        "you are right"
+      ],
+      "responses":[
+        "thanks",
+        "you are welcome",
+        "i am glad to hear this"
+      ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "how are you feeling",
+        "how do you feel"
+      ],
+      "responses": [
+        "thanks, i am great",
+        "i am great",
+        "it's my honour to work with you"
+      ]
+    },
+    {
+      "tag": "howareyou",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "how do you do"
+      ],
+      "responses": [
+        "i am fine",
+        "i am good",
+        "i am great",
+        "it's my honour to work with you"
+      ]
+    },
+    {
+      "tag": "problem",
+      "patterns":[
+        "what do you thing about this problem",
+        "do you have any suggestions about the problem",
+        "what do you thing about this",
+        "say something about the problem",
+        "do you know how to solve the task"
+      ],
+      "responses": [
+        "i hear this, i will try to solve it",
+        "i will try to solve it",
+        "I will search online"
+      ]
+    },
+    {
+      "tag": "knowme",
+      "patterns": [
+        "do you know me",
+        "are you my assistant",
+        "are you my friend",
+        "who am I"
+      ],
+      "responses": [
+        "yes i know you",
+        "yes i know you. you are my friend",
+        "yes i know you. i am your virtual assistant"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "bye",
+        "good bye",
+        "see you later",
+        "see you",
+        "talk to you later",
+        "i am going",
+        "catch you later",
+        "i am off",
+        "meet you later",
+        "i am out"
+      ],
+      "responses": [
+        "bye",
+        "good bye",
+        "i will be waiting",
+        "take care",
+        "have a nice time"
+      ]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "play songs from youtube",
+        "play video from youtube",
+        "play adhiyogi the source of yoga from youtube"
+      ],
+      "responses": [
+        "ok playing from youtube"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what is the time",
+        "what was the time",
+        "tell me the time",
+        "time right now"
+      ],
+      "responses": [
+        "the current time is",
+        "the time is"
+      ]
+    },
+    {
+      "tag": "meaning",
+      "patterns": [
+        "what is the meaning of",
+        "meaning of ",
+        "what do you mean by"
+      ],
+      "responses": [
+        "ok checking from the dictionary",
+        "let me check the dictionary"
+      ]
+    },
+    {
+      "tag": "synonym",
+      "patterns": [
+        "what is the synonym of",
+        "synonym of ",
+        "what is the similar word for"
+      ],
+      "responses": [
+        "ok checking from the dictionary",
+        "let me check the dictionary"
+      ]
+    },
+    {
+      "tag": "antonym",
+      "patterns": [
+        "what is the antonym of",
+        "antonym of ",
+        "what is the opposite of"
+      ],
+      "responses": [
+        "ok checking from the dictionary",
+        "let me check the dictionary"
+      ]
+    },
+    {
+      "tag": "makesentence",
+      "patterns": [
+        "make a sentence using love",
+        "make your own sentence using love",
+        "use the word love to make a sentence",
+        "hwo to use the word love"
+      ],
+       "responses": [
+        "ok checking from the dictionary",
+        "let me check the dictionary"
+      ]
+    },
+    {
+      "tag": "translate",
+      "patterns": [
+        "translate to hindi",
+        "what is the translation for",
+        "translate i am prashant to telugu"
+      ],
+      "responses": [
+        "ok using erica translator",
+        "translating using erica translator"
+      ]
+    },
+    {
+      "tag": "information",
+      "patterns":[
+        "i want to know about",
+        "tell me about",
+        "let me know about",
+        "i want some information about",
+        "information about",
+        "who is elon musk"
+      ],
+      "responses": [
+        "searching from database",
+        "let me see",
+        "let me check the database"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what is the weather",
+        "how was the climate",
+        "what is the temperature",
+        "weather in"
+      ],
+      "responses": [
+        "ok let me check online",
+        "the online data is showing that"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns":[
+        "what is the date",
+        "what was today's date",
+        "today's date"
+      ],
+      "responses": [
+        "today's date is",
+        "today is"
+      ]
+    },
+    {
+      "tag": "day",
+      "patterns": [
+        "what is this day",
+        "today's day",
+        "which day",
+        "day of the week"
+      ],
+      "responses":[
+        "today is"
+      ]
+    },
+    {
+      "tag": "week",
+      "patterns": [
+        "what is this week",
+        "week number",
+        "which week of the year"
+      ],
+      "responses":[
+        "this week is "
+      ]
+    },
+    {
+      "tag": "month",
+      "patterns": [
+        "what is this month",
+        "what is the month",
+        "which month"
+      ],
+      "responses": [
+        "it's",
+        "this is"
+      ]
+    },
+    {
+      "tag": "songs",
+      "patterns": [
+        "play songs",
+        "play my playlist",
+        "let's dance"
+      ],
+      "responses": [
+        "ok playing songs",
+        "playing your favorite playlist"
+      ]
+    },
+    {
+      "tag": "nextsong",
+      "patterns": [
+        "play the next song",
+        "play next song",
+        "play next"
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "stopsong",
+      "patterns": [
+        "stop the song",
+        "stop song",
+        "stop playing",
+        "stop the music",
+        "stop"
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "pausesong",
+      "patterns": [
+        "pause song",
+        "pause the song",
+        "pause it"
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "resumesong",
+      "patterns": [
+        "resume the song",
+        "resume song",
+        "resume it"
+      ],
+      "responses": [
+        " "
+      ]
+    },
+    {
+      "tag": "googlesearch",
+      "patterns": [
+        "search for this in google",
+        "search in google",
+        "open in google"
+      ],
+      "responses": [
+        "ok opening in google",
+        "searching in google"
+      ]
+    },
+    {
+      "tag": "convert",
+      "patterns": [
+        "convert millimeters to meters",
+        "convert the units"
+      ],
+      "responses":[
+        "doing unit conversion",
+        "ok fine"
+      ]
+    },
+    {
+      "tag":"news",
+      "patterns": [
+        "what are today's headlines",
+        "what is today's news",
+        "any new thing today",
+        "anything new"
+      ],
+      "responses": [
+        "ok gathering news from all sources",
+        "today's headlines are",
+        "i gathered this news"
+      ]
+    },
+    {
+      "tag": "equations",
+      "patterns": [
+        "can you solve a quadratic equation",
+        "i want to solve a quadratic equation",
+        "can you solve a quadratic equation"
+      ],
+      "responses": [
+        "ok what are the values of a, b and c",
+        "tell me the a, b and c values"
+      ]
+    },
+    {
+      "tag": "screenshot",
+      "patterns": [
+        "take a screenshot",
+        "save this screen"
+      ],
+      "responses": [
+        "taking screenshot, stay on the screen"
+      ]
+    },
+    {
+      "tag": "selfie",
+      "patterns":[
+        "take a selfie",
+        "make a memory",
+        "let's take a selfie",
+        "can you take a selfie"
+      ],
+      "responses": [
+        "taking selfie within 2 seconds, say cheese",
+        "say cheese"
+      ]
+    },
+    {
+      "tag": "record",
+      "patterns": [
+        "record the screen",
+        "start screen recording"
+      ],
+      "responses": [
+        "recording screen"
+      ]
+    },
+    {
+      "tag": "sketch",
+      "patterns":[
+        "apply filters on my selfie",
+        "apply effects on my photo",
+        "make a sketch of my photo"
+      ],
+      "responses": [
+        "you will be happy to see this filter on your image"
+      ]
+    },
+    {
+      "tag": "cook",
+      "patterns": [
+        "how to make noodles",
+        "what is the "
+      ],
+      "response": [
+        "this is the recipe of",
+        "So today you are making this, here you go with the recipe",
+        "Searching on the google, will share it with you in a while"
+      ]
+    },
+
+    {
+      "tag": "cars",
+      "patterns": [
+        "Cars under 5 Lakh",
+        "Cheapest car under 10 Lakh"
+      ],
+      "response": [
+        "Looks like you are thinking about buying a car",
+        "Hold on! I'm trying to figure out the most suitable choice for you",
+        "Searching on the google, will share it with you in a while"
+      ]
+    }
+  ]
+}
